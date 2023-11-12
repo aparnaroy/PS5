@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.EntityFrameworkCore;
-using OCTOBER.EF.Data;
+using OCTOBER.EF;
+//using OCTOBER.EF.Data;
 using OCTOBER.Server.Data;
 using OCTOBER.Server.Models;
 
