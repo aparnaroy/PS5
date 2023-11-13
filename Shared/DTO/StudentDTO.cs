@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace OCTOBER.Shared.DTO
 {
-    public  class StudentDTO
+    public class StudentDTO
     {
         [Precision(8)]
         public int StudentId { get; set; }
@@ -43,6 +43,7 @@ namespace OCTOBER.Shared.DTO
         [Unicode(false)]
         public string ModifiedBy { get; set; } = null!;
         public DateTime ModifiedDate { get; set; }
-
+        [Precision(8)]
+        public int SchoolId { get; set; }
     }
 }
